@@ -1,0 +1,23 @@
+{
+  "name": "osia",
+  "version": "1.0.0",
+  "description": "Super basic iOS app to browse [`open-source-ios-apps`](https://github.com/dkhamsing/open-source-ios-apps) :octocat:",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkhamsing/osia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkhamsing/osia/issues"
+  },
+  "homepage": "https://github.com/dkhamsing/osia#readme",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-native": "^0.34.0"
+  }
+}

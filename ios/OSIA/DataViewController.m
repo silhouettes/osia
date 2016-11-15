@@ -9,6 +9,7 @@
 #import "DataViewController.h"
 
 #import "Data.h"
+#import "RCTRootView.h"
 @import SafariServices;
 
 @interface DataViewController () <UITableViewDataSource, UITableViewDelegate>
@@ -82,11 +83,19 @@ static NSString * const kSwiftMarker = @" Swift ";
     self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:color};
     self.navigationController.navigationBar.tintColor = color;
     
-    self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button addTarget:self
+               action:@selector(reactNativeButtonPressed:)
+     forControlEvents:UIControlEventTouchUpInside];
+    [button setTitle:@"Show View" forState:UIControlStateNormal];
+    button.frame = CGRectMake(80.0, 210.0, 160.0, 40.0);
+    [self.view addSubview:button];
+    
+    /*self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
     [self.view addSubview:self.tableView];
     self.tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     self.tableView.dataSource = self;
-    self.tableView.delegate = self;
+    self.tableView.delegate = self;*/
 }
 
 #pragma mark Private
@@ -282,6 +291,32 @@ static NSString * const kSwiftMarker = @" Swift ";
 - (void)openAppStoreLink;
 {
     [[UIApplication sharedApplication] openURL:self.appStoreLink];
+}
+
+- (IBAction)reactNativeButtonPressed:(id)sender {
+    NSLog(@"React Native Button Pressed");
+    NSURL *jsCodeLocation = [NSURL
+                             URLWithString:@"http://localhost:8081/index.ios.bundle?platform=ios"];
+    RCTRootView *rootView =
+    [[RCTRootView alloc] initWithBundleURL : jsCodeLocation
+                         moduleName        : @"TestComponent"
+                         initialProperties :
+     @{
+       @"scores" : @[
+               @{
+                   @"name" : @"Alex",
+                   @"value": @"42"
+                   },
+               @{
+                   @"name" : @"Joel",
+                   @"value": @"10"
+                   }
+               ]
+       }
+                          launchOptions    : nil];
+    UIViewController *vc = [[UIViewController alloc] init];
+    vc.view = rootView;
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 @end

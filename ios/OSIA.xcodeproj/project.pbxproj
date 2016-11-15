@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		229EB0E2DBD4DF95A7B85D1F /* libPods-OSIA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD30EBDEF0A158711CB5A597 /* libPods-OSIA.a */; };
+		C5E480647591C391AE39CFC2 /* libPods-OSIATests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACC8333ACAA42E13967E7EF /* libPods-OSIATests.a */; };
+		CBC1A065CB7D472EFC028BFB /* libPods-OSIAUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9998287C3EC3FB56800DD7 /* libPods-OSIAUITests.a */; };
 		D65589C31D42A3620033DD9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D65589C21D42A3620033DD9D /* main.m */; };
 		D65589C61D42A3620033DD9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D65589C51D42A3620033DD9D /* AppDelegate.m */; };
 		D65589CE1D42A3620033DD9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D65589CD1D42A3620033DD9D /* Assets.xcassets */; };
@@ -37,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07059898E026C762667B2669 /* Pods-OSIATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSIATests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OSIATests/Pods-OSIATests.debug.xcconfig"; sourceTree = "<group>"; };
+		0ACC8333ACAA42E13967E7EF /* libPods-OSIATests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSIATests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3242E274584CB039DF7E5FF9 /* Pods-OSIAUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSIAUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OSIAUITests/Pods-OSIAUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D323E1AB1453B5322AB11C6 /* Pods-OSIAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSIAUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OSIAUITests/Pods-OSIAUITests.release.xcconfig"; sourceTree = "<group>"; };
+		504EC9DAE7587AE495172105 /* Pods-OSIA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSIA.release.xcconfig"; path = "Pods/Target Support Files/Pods-OSIA/Pods-OSIA.release.xcconfig"; sourceTree = "<group>"; };
+		6CA2EF3B006A13C0B3C34D94 /* Pods-OSIATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSIATests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OSIATests/Pods-OSIATests.release.xcconfig"; sourceTree = "<group>"; };
+		99D4C5D4C80A62D6235D627B /* Pods-OSIA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSIA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OSIA/Pods-OSIA.debug.xcconfig"; sourceTree = "<group>"; };
+		BD30EBDEF0A158711CB5A597 /* libPods-OSIA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSIA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65589BE1D42A3620033DD9D /* OSIA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSIA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65589C21D42A3620033DD9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D65589C41D42A3620033DD9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,6 +68,7 @@
 		D65AC84D1D466E55009A9AD4 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
 		D65AC84E1D466E55009A9AD4 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
 		D6E80AC51D42A38C00C92657 /* contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contents.json; sourceTree = "<group>"; };
+		FC9998287C3EC3FB56800DD7 /* libPods-OSIAUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSIAUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229EB0E2DBD4DF95A7B85D1F /* libPods-OSIA.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5E480647591C391AE39CFC2 /* libPods-OSIATests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +92,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBC1A065CB7D472EFC028BFB /* libPods-OSIAUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		333285F643E14DF75B634D13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99D4C5D4C80A62D6235D627B /* Pods-OSIA.debug.xcconfig */,
+				504EC9DAE7587AE495172105 /* Pods-OSIA.release.xcconfig */,
+				07059898E026C762667B2669 /* Pods-OSIATests.debug.xcconfig */,
+				6CA2EF3B006A13C0B3C34D94 /* Pods-OSIATests.release.xcconfig */,
+				3242E274584CB039DF7E5FF9 /* Pods-OSIAUITests.debug.xcconfig */,
+				3D323E1AB1453B5322AB11C6 /* Pods-OSIAUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D65589B51D42A3620033DD9D = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +119,8 @@
 				D65589DA1D42A3620033DD9D /* OSIATests */,
 				D65589E51D42A3620033DD9D /* OSIAUITests */,
 				D65589BF1D42A3620033DD9D /* Products */,
+				333285F643E14DF75B634D13 /* Pods */,
+				EC2B421A244F4D4F27BB85A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,6 +180,16 @@
 			path = OSIAUITests;
 			sourceTree = "<group>";
 		};
+		EC2B421A244F4D4F27BB85A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD30EBDEF0A158711CB5A597 /* libPods-OSIA.a */,
+				0ACC8333ACAA42E13967E7EF /* libPods-OSIATests.a */,
+				FC9998287C3EC3FB56800DD7 /* libPods-OSIAUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D65589EB1D42A3620033DD9D /* Build configuration list for PBXNativeTarget "OSIA" */;
 			buildPhases = (
+				8D6FC29CF95F1CEDCEF75963 /* [CP] Check Pods Manifest.lock */,
 				D65589BA1D42A3620033DD9D /* Sources */,
 				D65589BB1D42A3620033DD9D /* Frameworks */,
 				D65589BC1D42A3620033DD9D /* Resources */,
+				FC7D547B7B9A78C72819407A /* [CP] Embed Pods Frameworks */,
+				13BF1DEFF0D7C9EE407A948C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D65589EE1D42A3620033DD9D /* Build configuration list for PBXNativeTarget "OSIATests" */;
 			buildPhases = (
+				2FCA1C4DBBBE62C262731B06 /* [CP] Check Pods Manifest.lock */,
 				D65589D31D42A3620033DD9D /* Sources */,
 				D65589D41D42A3620033DD9D /* Frameworks */,
 				D65589D51D42A3620033DD9D /* Resources */,
+				421191ADA1FC1E31935E248C /* [CP] Embed Pods Frameworks */,
+				5E7AD2AF0458A5E9E4DAA2E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D65589F11D42A3620033DD9D /* Build configuration list for PBXNativeTarget "OSIAUITests" */;
 			buildPhases = (
+				E83DF9470C5DB1352A49A536 /* [CP] Check Pods Manifest.lock */,
 				D65589DE1D42A3620033DD9D /* Sources */,
 				D65589DF1D42A3620033DD9D /* Frameworks */,
 				D65589E01D42A3620033DD9D /* Resources */,
+				DA9CE8E2102A6C91B53A856D /* [CP] Embed Pods Frameworks */,
+				EA27DF43EDCED0F7D6AD2F8D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -274,6 +323,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13BF1DEFF0D7C9EE407A948C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSIA/Pods-OSIA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FCA1C4DBBBE62C262731B06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		421191ADA1FC1E31935E248C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSIATests/Pods-OSIATests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E7AD2AF0458A5E9E4DAA2E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSIATests/Pods-OSIATests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D6FC29CF95F1CEDCEF75963 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA9CE8E2102A6C91B53A856D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSIAUITests/Pods-OSIAUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E83DF9470C5DB1352A49A536 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA27DF43EDCED0F7D6AD2F8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSIAUITests/Pods-OSIAUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC7D547B7B9A78C72819407A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OSIA/Pods-OSIA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D65589BA1D42A3620033DD9D /* Sources */ = {
@@ -415,6 +602,7 @@
 		};
 		D65589EC1D42A3620033DD9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99D4C5D4C80A62D6235D627B /* Pods-OSIA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OSIA/Info.plist;
@@ -426,6 +614,7 @@
 		};
 		D65589ED1D42A3620033DD9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 504EC9DAE7587AE495172105 /* Pods-OSIA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OSIA/Info.plist;
@@ -437,6 +626,7 @@
 		};
 		D65589EF1D42A3620033DD9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07059898E026C762667B2669 /* Pods-OSIATests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = OSIATests/Info.plist;
@@ -449,6 +639,7 @@
 		};
 		D65589F01D42A3620033DD9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CA2EF3B006A13C0B3C34D94 /* Pods-OSIATests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = OSIATests/Info.plist;
@@ -461,6 +652,7 @@
 		};
 		D65589F21D42A3620033DD9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3242E274584CB039DF7E5FF9 /* Pods-OSIAUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = OSIAUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -473,6 +665,7 @@
 		};
 		D65589F31D42A3620033DD9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D323E1AB1453B5322AB11C6 /* Pods-OSIAUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = OSIAUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
